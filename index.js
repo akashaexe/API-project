@@ -109,3 +109,5 @@ function updateBackground(posterUrl) {
   if (!posterUrl || posterUrl === "N/A") return;
   background.style.backgroundImage = `url(${posterUrl})`;
 }
+
+window.showMovieDetails = showMovieDetails;
